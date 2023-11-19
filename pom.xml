@@ -44,7 +44,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>com.mycompany.api.preparedstatement.PSUserLogin</mainClass>
+          <mainClass>com.mycompany.api.preparedstatement.PSEncapsulation_2</mainClass>
         </configuration>
       </plugin>
     </plugins>

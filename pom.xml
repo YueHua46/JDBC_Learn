@@ -30,7 +30,7 @@
   </dependencies>
 
   <!-- 构建配置 -->
-  <build>
+ <build>
     <plugins>
       <plugin>
       <groupId>org.codehaus.mojo</groupId>
@@ -44,7 +44,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>com.mycompany.api.statement.StatementQuery</mainClass>
+          <mainClass>com.mycompany.api.preparedstatement.PSUserLogin</mainClass>
         </configuration>
       </plugin>
     </plugins>

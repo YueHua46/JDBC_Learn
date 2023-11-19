@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.AppTest" time="0.017" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="C:\Users\Sears\Desktop\2023-10-22\JDBC_Learn\jdbc_learn\target\test-classes;C:\Users\Sears\Desktop\2023-10-22\JDBC_Learn\jdbc_learn\target\classes;C:\maven\repo\junit\junit\3.8.1\junit-3.8.1.jar;C:\maven\repo\mysql\mysql-connector-java\8.0.27\mysql-connector-java-8.0.27.jar;C:\maven\repo\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Hong_Kong"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="C:\Users\Sears\scoop\apps\oraclejdk-lts\current\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sears\AppData\Local\Temp\surefire1220332689943272372\surefirebooter-20231119192511623_3.jar C:\Users\Sears\AppData\Local\Temp\surefire1220332689943272372 2023-11-19T19-25-11_523-jvmRun1 surefire-20231119192511623_1tmp surefire_0-20231119192511623_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Sears\Desktop\2023-10-22\JDBC_Learn\jdbc_learn\target\test-classes;C:\Users\Sears\Desktop\2023-10-22\JDBC_Learn\jdbc_learn\target\classes;C:\maven\repo\junit\junit\3.8.1\junit-3.8.1.jar;C:\maven\repo\mysql\mysql-connector-java\8.0.27\mysql-connector-java-8.0.27.jar;C:\maven\repo\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sears"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Users\Sears\scoop\apps\oraclejdk-lts\current"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Sears\Desktop\2023-10-22\JDBC_Learn\jdbc_learn"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sears\AppData\Local\Temp\surefire1220332689943272372\surefirebooter-20231119192511623_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
+    <property name="user.name" value="Sears"/>
+    <property name="stdout.encoding" value="GBK"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\maven\repo"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sears\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="C:\Users\Sears\Desktop\2023-10-22\JDBC_Learn\jdbc_learn"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Users\Sears\scoop\apps\oraclejdk-lts\current\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Sears\scoop\apps\miniconda3\current;C:\Users\Sears\scoop\apps\miniconda3\current\Library\mingw-w64\bin;C:\Users\Sears\scoop\apps\miniconda3\current\Library\usr\bin;C:\Users\Sears\scoop\apps\miniconda3\current\Library\bin;C:\Users\Sears\scoop\apps\miniconda3\current\Scripts;C:\Users\Sears\scoop\apps\miniconda3\current\bin;C:\Users\Sears\scoop\apps\miniconda3\current\condabin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.3.9.0_x64__8wekyb3d8bbwe;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\libnvvp;C:\Program Files (x86)\VMware\VMware Workstation\bin;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Bandizip;C:\Users\Sears\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\git\cmd;C:\Program Files\dotnet;C:\Program Files\adb;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Sears\Desktop\application\微信web开发者工具\dll;C:\Users\Sears\Desktop\wechat_\微信web开发者工具\dll;C:\Users\Public\Desktop\application\微信web开发者工具\dll;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\Sears\AppData\Local\Android\Sdk\platform-tools;C:\Users\Sears\AppData\Local\Android\Sdk\emulator;C:\Users\Sears\AppData\Local\Android\Sdk\tools;C:\Users\Sears\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.1.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1;C:\Program Files\Pandoc;C:\Program Files (x86)\NetSarang\Xshell 7;C:\Users\Sears\Desktop\tools\apache-maven-3.9.5\bin;C:\Users\Sears\scoop\apps\oraclejdk-lts\current\bin;C:\Users\Sears\.cargo\bin;C:\Users\Sears\scoop\apps\imagemagick\current;C:\Users\Sears\scoop\apps\gcc\current\bin;C:\Users\Sears\scoop\apps\miniconda3\current\scripts;C:\Users\Sears\scoop\apps\miniconda3\current\Library\bin;C:\Users\Sears\scoop\apps\maven\current\bin;C:\Users\Sears\scoop\apps\openjdk17\current\bin;C:\Users\Sears\scoop\shims;C:\Users\Sears\AppData\Local\pnpm;C:\Users\Sears\AppData\Local\Microsoft\WindowsApps;C:\Users\Sears\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sears\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Sears\AppData\Local\pnpm;C:\Users\Sears\.dotnet\tools;C:\Users\Sears\AppData\Local\Programs\oh-my-posh\bin;C:\Users\Sears\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Sears\AppData\Local\gitkraken\bin;C:\Program Files (x86)\Tencent\QQGameTempest\Hall.57986;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="GBK"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.1+12-LTS-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.mycompany.AppTest" time="0.004"/>
+</testsuite>

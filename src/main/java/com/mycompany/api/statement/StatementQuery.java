@@ -19,6 +19,12 @@ import java.sql.Statement;
  * 5. 处理结果集
  * 6. 释放资源
  */
+/*
+ * Statement执行sql的缺点
+ * 1. sql语句存在硬编码，不利于维护
+ * 2. sql语句存在安全性问题，容易被sql注入
+ * 3. Statement执行sql语句效率低下，每次执行sql语句都需要编译一次
+ */
 public class StatementQuery {
   private static final String URL = "jdbc:mysql://localhost:3306/main?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8";
   private static final String USER = "root";

@@ -1,0 +1,3 @@
+com\mycompany\App.class
+com\mycompany\api\statement\StatementQuery.class
+com\mycompany\api\preparedstatement\PSUserLogin.class

@@ -19,8 +19,7 @@ public class PSEncapsulation_2 {
   private static final String PASSWORD = "123456";
 
   public static void main(String[] args) throws ClassNotFoundException, SQLException {
-    // 封装请求到的ResultSet对象，一般情况封装为List<Map>，Map的key/value对应列名/列值，list的每个元素对应一行数据
-
+    // 封装请求到的ResultSet对象，一般情况封装为List<Map>，HashMap的key/value对应列名/列值，list的每个元素对应一行数据
     Class.forName("com.mysql.cj.jdbc.Driver");
 
     // 连接数据库

@@ -28,4 +28,25 @@
       <version>8.0.27</version>
     </dependency>
   </dependencies>
+
+  <!-- 构建配置 -->
+  <build>
+    <plugins>
+      <plugin>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>exec-maven-plugin</artifactId>
+      <version>3.1.1</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>java</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <mainClass>com.mycompany.api.statement.StatementQuery</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
